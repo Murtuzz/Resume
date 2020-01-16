@@ -1,0 +1,507 @@
+
+*{
+	box-sizing: border-box;
+	/*word-break: break-all;*/
+}
+/**/
+.bodyClass{
+	padding: 20px;
+	margin: 20px ;
+}
+.name{
+	font: cursive;
+	color: black;
+	font-size: 34px;
+	margin:0px;
+}
+
+.work{
+	font-style: italic;
+	font: cursive;
+	color: grey;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.imagesize{
+	color: #0086b3;
+	margin-right: 5px;
+	font-size: 1.2rem;
+
+}
+.hh{
+
+	color: black;
+	margin: 3px;
+	font-weight: bold;
+	margin-bottom: 0px !important;
+	font-size: 22px !important;
+}
+
+.h2{	
+	color: #0086b3;
+	margin: 3px;
+	font-weight: bold !important; 
+	margin-bottom: 3px !important;
+	font-size: 25px !important;
+}
+h3{
+	margin: 0px !important;
+	margin-left: 3px !important;
+	font-size: 20px !important;
+}
+@media only screen and (max-width: 450px){
+
+	.imagesize{
+	color: #0086b3;
+	word-break: break-all;
+	margin-right: 5px;
+	font-size: 1.3rem;
+	}
+
+	.bodyClass{
+		margin: 10px ;
+		padding: 10px;
+	}
+
+	.name{
+	
+	font-size: 26px;
+	margin:0px;
+	}
+
+	.work{
+	font-style: italic;
+	
+	color: grey;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
+	.hh{
+
+		color: black;
+		margin: 0px !important ;
+		font-weight: bold;
+		font-size: 20px !important;
+	}
+
+	.h2{	
+	color: #0086b3;
+	margin: 0px !important;
+	font-weight: bold !important; 
+	
+	margin-bottom: 3px !important;
+	font-size: 22px !important;
+	}
+	h3{
+	margin: 0px !important;
+	margin-left: 3px !important;
+	font-size: 18px !important;
+	}
+
+}
+
+.col1{
+	float: left;
+	width: 50%;
+	margin: 0px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0px;
+}
+
+.about{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.info{
+	background-color: #d9d9d9;
+	padding: 10px !important;
+}
+
+table{
+	width: 100%;
+}
+
+#introtuce{
+		font: cursive;
+		font-size: 20px;
+		margin: 0px;
+		margin-left: 3px;
+}
+
+
+.row1{
+margin: 0px;
+padding: 0px;
+}
+
+.grey{
+	margin: 0px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0px;	
+}
+h3{
+	font-weight: bold !important;
+}
+.list{
+	margin: 0px;
+	text-align: justify;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+
+
+.scl{
+	font: cursive;
+	font-size: 15px;
+	font-style: italic;
+}
+.para{
+	margin: 0px !important;
+}
+
+.pdiv{
+	margin-bottom: 10px !important; 
+}
+
+.prog{
+	display: inline-block;
+	border: 2px;
+	/*border-color: red;*/
+	padding: 5px;
+	color: white;
+	background-color: #0086b3;
+	border-radius: 5px;
+	margin:	5px;
+}
+
+.para1{
+	
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding-top: 5px;
+}
+
+.intrest{
+	border: 2px;
+	border-color: #d9d9d9;
+	border-style: solid;
+	padding: 5px;
+	color: black;
+	display:inline-block;
+	border-radius: 5px;
+	margin:	5px;
+}
+
+.edu{
+	float: right;
+	margin-right: 60px;
+}
+
+
+/*@media only screen and (max-width: 450px){
+
+*{ box-sizing: border-box;}
+
+body{
+	padding: 20px;
+	margin: 40px;
+	background-color: red;
+}
+
+.col{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.name{
+	font: cursive;
+	color: black;
+	font-size: 34px;
+	margin:0px;
+}
+
+.work{
+	font-style: italic;
+	font: cursive;
+	color: grey;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.about{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.info{
+	background-color: #d9d9d9;
+	padding: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+.imagesize{
+	color: #0086b3;
+margin-right: 5px;
+	font-size: 1.2rem;
+}
+
+h2{	color: #0086b3;
+	margin: 3px;
+	margin-top: 20px;
+margin-bottom: 6px;
+}
+
+#introtuce{
+		font: cursive;
+		font-size: 20px;
+		margin: 0px;
+		margin-left: 3px;
+}
+
+.col1{
+	float: left;
+	width: 50%;
+	margin: 0px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0px;
+}
+
+.row1{
+margin: 0px;
+padding: 0px;
+}
+
+.grey{
+	margin: 0px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0px;	
+}
+
+.list{
+	margin: 0px;
+	text-align: justify;
+	margin-right: 10%;
+}
+
+h3{
+	margin: 0px;
+	margin-left: 3px;
+}
+
+.scl{
+	font: cursive;
+	font-size: 15px;
+	font-style: italic;
+}
+.para{
+	margin: 0px;
+}
+
+.pdiv{
+	margin-bottom: 10px; 
+}
+
+.prog{
+	display: inline-block;
+	border: 2px;
+	padding: 5px;
+	color: white;
+	background-color: #0086b3;
+	border-radius: 5px;
+	margin:	5px;
+}
+
+.para1{
+	
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding-top: 5px;
+}
+
+.intrest{
+	border: 2px;
+	border-color: #d9d9d9;
+	border-style: solid;
+	padding: 5px;
+	color: black;
+	display:inline-block;
+	border-radius: 5px;
+	margin:	5px;
+}
+
+.edu{
+	float: right;
+	margin-right: 60px;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 450px){
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	padding: 50px;
+	margin: 20px;
+	background-color: blue;
+}
+
+.col{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.name{
+	font: cursive;
+	color: black;
+	font-size: 34px;
+	margin:0px;
+}
+
+.work{
+	font-style: italic;
+	font: cursive;
+	color: grey;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.about{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.info{
+	background-color: #d9d9d9;
+	padding: 10px;
+}
+
+table{
+	width: 100%;
+}
+
+.imagesize{
+	color: #0086b3;
+margin-right: 5px;
+	font-size: 1.2rem;
+}
+
+h2{	color: #0086b3;
+	margin: 3px;
+	margin-top: 20px;
+margin-bottom: 6px;
+}
+
+#introtuce{
+		font: cursive;
+		font-size: 20px;
+		margin: 0px;
+		margin-left: 3px;
+}
+
+.col1{
+	float: left;
+	width: 50%;
+	margin: 0px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0px;
+}
+
+.row1{
+margin: 0px;
+padding: 0px;
+}
+
+.grey{
+	margin: 0px;
+	color: grey;
+	font-size: 14px;
+	font-style: italic;
+	padding: 0px;	
+}
+
+.list{
+	margin: 0px;
+	text-align: justify;
+	margin-right: 10%;
+}
+
+h3{
+	margin: 0px;
+	margin-left: 3px;
+}
+
+.scl{
+	font: cursive;
+	font-size: 15px;
+	font-style: italic;
+}
+.para{
+	margin: 0px;
+}
+
+.pdiv{
+	margin-bottom: 10px; 
+}
+
+.prog{
+	display: inline-block;
+	border: 2px;
+	padding: 5px;
+	color: white;
+	background-color: #0086b3;
+	border-radius: 5px;
+	margin:	5px;
+}
+
+.para1{
+	
+	margin-top: 5px;
+	margin-bottom:5px;
+	padding-top: 5px;
+}
+
+.intrest{
+	border: 2px;
+	border-color: #d9d9d9;
+	border-style: solid;
+	padding: 5px;
+	color: black;
+	display:inline-block;
+	border-radius: 5px;
+	margin:	5px;
+}
+
+.edu{
+	float: right;
+	margin-right: 60px;
+}
+
+}
+
+*/
